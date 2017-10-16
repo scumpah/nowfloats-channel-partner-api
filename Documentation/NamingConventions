@@ -1,0 +1,7 @@
+Mongo Database Name: channeldata
+Mongo collection name: channeldata
+
+MySQL Database name: TRANSACTION_DETAILS
+MYSQL Table name: TRANSACTION_DETAILS
+
+Kafka topic name: test

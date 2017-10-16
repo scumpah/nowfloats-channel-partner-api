@@ -1,0 +1,129 @@
+Database Name: channeldata
+Collection Name: channeldata
+Schema:
+{
+    "_id" : ObjectId(),
+    "channelId" : String,
+    "channelName" : String,
+    "categoryCode" : String,
+    "categoryName" : String,
+    "appId" : String,
+    "subscriptions" : [
+        {
+            "subscriptionId" : String,
+            "susbscriptionType" : String,
+            "subscriptionName" : String,
+            "limit" : Int,
+            "subscriptionUrl" : String,
+            "subscriptionUrlType" : String
+        },
+        {
+             "subscriptionId" : String,
+              "susbscriptionType" : String,
+              "subscriptionName" : String,
+              "limit" : Int,
+              "subscriptionUrl" : String,
+              "subscriptionUrlType" : String
+         },
+         {
+               "subscriptionId" : String,
+               "susbscriptionType" : String,
+                "subscriptionName" : String,
+                "limit" : Int,
+                "subscriptionUrl" : String,
+                "subscriptionUrlType" : String
+          }
+    ]
+}
+
+
+
+Documents:
+/* 1 */
+{
+    "_id" : ObjectId("59e4d40bab802cef82ded481"),
+    "channelId" : "CH001",
+    "channelName" : "Facebook",
+    "categoryCode" : "1",
+    "categoryName" : "Social Media",
+    "appId" : "1230504577583423",
+    "subscriptions" : [
+        {
+            "subscriptionId" : "SUB_ID_00001",
+            "susbscriptionType" : "PostStatus",
+            "subscriptionName" : "Facebook Status",
+            "limit" : 140,
+            "subscriptionUrl" : "https://graphapi.facebook.com/post/status",
+            "subscriptionUrlType" : "Post"
+        },
+        {
+            "subscriptionId" : "SUB_ID_00002",
+            "susbscriptionType" : "ShareLinkStatus",
+            "subscriptionName" : "Facebook Link Status",
+            "limit" : 50,
+            "subscriptionUrl" : "https://graphapi.facebook.com/post/statusUpdateLink",
+            "subscriptionUrlType" : "Post"
+        },
+        {
+            "subscriptionId" : "SUB_ID_00003",
+            "susbscriptionType" : "Location",
+            "subscriptionName" : "Facebook Update User Location",
+            "limit" : 50,
+            "subscriptionUrl" : "https://graphapi.facebook.com/post/location",
+            "subscriptionUrlType" : "Post"
+        },
+        {
+            "subscriptionId" : "SUB_ID_00004",
+            "susbscriptionType" : "WorkPlace",
+            "subscriptionName" : "Facebook Work Place",
+            "limit" : 100,
+            "subscriptionUrl" : "https://graphapi.facebook.com/post/updateWork",
+            "subscriptionUrlType" : "Post"
+        }
+    ]
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("59e4d418ab802cef82ded482"),
+    "channelId" : "CH002",
+    "channelName" : "Twitter",
+    "categoryCode" : "1",
+    "categoryName" : "Social Media",
+    "appId" : "1230504577583423",
+    "subscriptions" : [
+        {
+            "subscriptionId" : "SUB_ID_00005",
+            "susbscriptionType" : "PostStatus",
+            "subscriptionName" : "Twitter Status",
+            "limit" : 140,
+            "subscriptionUrl" : "https://graphapi.twitter.com/post/status",
+            "subscriptionUrlType" : "Post"
+        },
+        {
+            "subscriptionId" : "SUB_ID_00006",
+            "susbscriptionType" : "ShareLinkStatus",
+            "subscriptionName" : "Twitter Link Status",
+            "limit" : 50,
+            "subscriptionUrl" : "https://graphapi.twitter.com/post/statusUpdateLik",
+            "subscriptionUrlType" : "Post"
+        },
+        {
+            "subscriptionId" : "SUB_ID_00007",
+            "susbscriptionType" : "Location",
+            "subscriptionName" : "Twitter Update User Location",
+            "limit" : 50,
+            "subscriptionUrl" : "https://graphapi.twitter.com/post/location",
+            "subscriptionUrlType" : "Post"
+        },
+        {
+            "subscriptionId" : "SUB_ID_00008",
+            "susbscriptionType" : "WorkPlace",
+            "subscriptionName" : "Twitter Work Place",
+            "limit" : 100,
+            "subscriptionUrl" : "https://graphapi.twitter.com/post/updateWork",
+            "subscriptionUrlType" : "Post"
+        }
+    ]
+}
+

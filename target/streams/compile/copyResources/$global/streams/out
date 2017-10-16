@@ -1,0 +1,10 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/raghav/nowfloats-channel-api/conf/messages,/home/raghav/nowfloats-channel-api/target/scala-2.11/classes/messages)[0m
+[0m[[0mdebug[0m] [0m	(/home/raghav/nowfloats-channel-api/conf/application.conf,/home/raghav/nowfloats-channel-api/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/raghav/nowfloats-channel-api/conf/routes,/home/raghav/nowfloats-channel-api/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/raghav/nowfloats-channel-api/conf/akka.conf,/home/raghav/nowfloats-channel-api/target/scala-2.11/classes/akka.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/raghav/nowfloats-channel-api/conf/kafka.conf,/home/raghav/nowfloats-channel-api/target/scala-2.11/classes/kafka.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/raghav/nowfloats-channel-api/conf/env,/home/raghav/nowfloats-channel-api/target/scala-2.11/classes/env)[0m
+[0m[[0mdebug[0m] [0m	(/home/raghav/nowfloats-channel-api/conf/logback.xml,/home/raghav/nowfloats-channel-api/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/raghav/nowfloats-channel-api/conf/filters.conf,/home/raghav/nowfloats-channel-api/target/scala-2.11/classes/filters.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/raghav/nowfloats-channel-api/conf/env/application.env.conf,/home/raghav/nowfloats-channel-api/target/scala-2.11/classes/env/application.env.conf)[0m

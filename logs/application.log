@@ -1,0 +1,339 @@
+2017-10-16 21:11:06,946 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 - Slf4jLogger started
+2017-10-16 21:11:07,008 [INFO] from org.apache.kafka.clients.producer.ProducerConfig in application-akka.actor.default-dispatcher-3 - ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = 1
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 16384
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	linger.ms = 0
+
+2017-10-16 21:11:07,008 [INFO] from org.apache.kafka.clients.producer.ProducerConfig in application-akka.actor.default-dispatcher-2 - ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = 1
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 16384
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	linger.ms = 0
+
+2017-10-16 21:11:07,028 [WARN] from slick.basic.DatabaseConfig in play-dev-mode-akka.actor.default-dispatcher-6 - Use `profile` instead of `driver`. The latter is deprecated since Slick 3.2 and will be removed.
+2017-10-16 21:11:07,190 [INFO] from org.apache.kafka.clients.producer.ProducerConfig in application-akka.actor.default-dispatcher-3 - ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = producer-1
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = 1
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 16384
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	linger.ms = 0
+
+2017-10-16 21:11:07,190 [INFO] from org.apache.kafka.clients.producer.ProducerConfig in application-akka.actor.default-dispatcher-2 - ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = producer-2
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = 1
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 16384
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	linger.ms = 0
+
+2017-10-16 21:11:07,192 [INFO] from org.apache.kafka.common.utils.AppInfoParser in application-akka.actor.default-dispatcher-3 - Kafka version : 0.10.0.1
+2017-10-16 21:11:07,192 [INFO] from org.apache.kafka.common.utils.AppInfoParser in application-akka.actor.default-dispatcher-3 - Kafka commitId : a7a17cdec9eaa6c5
+2017-10-16 21:11:07,194 [INFO] from org.apache.kafka.common.utils.AppInfoParser in application-akka.actor.default-dispatcher-2 - Kafka version : 0.10.0.1
+2017-10-16 21:11:07,194 [INFO] from org.apache.kafka.common.utils.AppInfoParser in application-akka.actor.default-dispatcher-2 - Kafka commitId : a7a17cdec9eaa6c5
+2017-10-16 21:11:07,290 [INFO] from reactivemongo.api.MongoDriver in play-dev-mode-akka.actor.default-dispatcher-6 - No mongo-async-driver configuration found
+2017-10-16 21:11:07,309 [INFO] from reactivemongo.api.MongoDriver in play-dev-mode-akka.actor.default-dispatcher-6 - [Supervisor-1] Creating connection: Connection-2
+2017-10-16 21:11:07,589 [INFO] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 - [Supervisor-1/Connection-2] Starting the MongoDBSystem akka://reactivemongo/user/Connection-2
+2017-10-16 21:11:07,842 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-6 - Application : Starting application at 2017-10-16T15:41:07.841Z.
+2017-10-16 21:11:07,882 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-6 - application.conf @ file:/home/raghav/nowfloats-channel-api/target/scala-2.11/classes/application.conf: 1: play.crypto.secret is deprecated, use play.http.secret.key instead
+2017-10-16 21:11:08,028 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-6 - Application started (Dev)
+2017-10-16 21:11:08,034 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-6 - application.conf @ file:/home/raghav/nowfloats-channel-api/target/scala-2.11/classes/application.conf: 1: play.crypto.secret is deprecated, use play.http.secret.key instead
+2017-10-16 21:11:08,521 [INFO] from application in application-akka.actor.default-dispatcher-5 - String {"authenticationType":"awdwaed","authenticationValue":"7777777777","channels":[{"channelId":"CH001","channelName":"Facebook"}],"subscriptionType":"PostStatus","userDataMessage":"this is my new status","userDataMetadata":"","timeStamp":"24-08-1997","referrer":"TestUrl"}
+2017-10-16 21:11:08,522 [INFO] from application in application-akka.actor.default-dispatcher-5 - received data to producer Actor
+2017-10-16 21:11:08,578 [INFO] from application in application-akka.actor.default-dispatcher-5 - sent
+2017-10-16 21:11:17,913 [INFO] from org.apache.kafka.clients.consumer.ConsumerConfig in application-akka.kafka.default-dispatcher-7 - ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	enable.auto.commit = true
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 2147483647
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 10000
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = test
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = earliest
+
+2017-10-16 21:11:17,923 [INFO] from org.apache.kafka.clients.consumer.ConsumerConfig in application-akka.kafka.default-dispatcher-7 - ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	enable.auto.commit = true
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = consumer-1
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 2147483647
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 10000
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = test
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = earliest
+
+2017-10-16 21:11:17,945 [INFO] from org.apache.kafka.common.utils.AppInfoParser in application-akka.kafka.default-dispatcher-7 - Kafka version : 0.10.0.1
+2017-10-16 21:11:17,945 [INFO] from org.apache.kafka.common.utils.AppInfoParser in application-akka.kafka.default-dispatcher-7 - Kafka commitId : a7a17cdec9eaa6c5
+2017-10-16 21:11:18,119 [INFO] from org.apache.kafka.clients.consumer.internals.AbstractCoordinator in application-akka.kafka.default-dispatcher-9 - Discovered coordinator Raghav:9092 (id: 2147483647 rack: null) for group test.
+2017-10-16 21:11:18,122 [INFO] from org.apache.kafka.clients.consumer.internals.ConsumerCoordinator in application-akka.kafka.default-dispatcher-9 - Revoking previously assigned partitions [] for group test
+2017-10-16 21:11:18,123 [INFO] from org.apache.kafka.clients.consumer.internals.AbstractCoordinator in application-akka.kafka.default-dispatcher-9 - (Re-)joining group test
+2017-10-16 21:11:18,136 [INFO] from org.apache.kafka.clients.consumer.internals.AbstractCoordinator in application-akka.kafka.default-dispatcher-9 - Successfully joined group test with generation 110
+2017-10-16 21:11:18,137 [INFO] from org.apache.kafka.clients.consumer.internals.ConsumerCoordinator in application-akka.kafka.default-dispatcher-9 - Setting newly assigned partitions [test-0] for group test
+2017-10-16 21:11:18,218 [INFO] from application in application-akka.actor.default-dispatcher-5 - offset->52,partition->0,key->null,value->{"authenticationType":"awdwaed","authenticationValue":"7777777777","channels":[{"channelId":"CH001","channelName":"Facebook"}],"subscriptionType":"PostStatus","userDataMessage":"this is my new status","userDataMetadata":"","timeStamp":"24-08-1997","referrer":"TestUrl"},checksum->318586970,timestamp->1508168468569
+2017-10-16 21:11:18,225 [INFO] from application in application-akka.actor.default-dispatcher-5 - yszudx
+2017-10-16 21:11:18,229 [INFO] from application in application-akka.actor.default-dispatcher-5 - qwertyuiFacebookPostStatus
+2017-10-16 21:11:18,246 [INFO] from application in application-akka.actor.default-dispatcher-2 - data from mongo Some(MongoChannel(CH001,Facebook,1,Social Media,123050457758183,List(subscriptions(SUB_ID_00001,PostStatus,Facebook Status,140,https://graphapi.facebook.com/post/status,Post), subscriptions(SUB_ID_00001,Status,Facebook Status,140,https://graphapi.facebook.com/post/status,Post), subscriptions(SUB_ID_00001,Status,Facebook Status,140,https://graphapi.facebook.com/post/status,Post), subscriptions(SUB_ID_00001,Status,Facebook Status,140,https://graphapi.facebook.com/post/status,Post), subscriptions(SUB_ID_00001,Status,Facebook Status,140,https://graphapi.facebook.com/post/status,Post), subscriptions(SUB_ID_00001,Status,Facebook Status,140,https://graphapi.facebook.com/post/status,Post), subscriptions(SUB_ID_00001,Status,Facebook Status,140,https://graphapi.facebook.com/post/status,Post))))
+2017-10-16 21:11:18,248 [INFO] from application in application-akka.actor.default-dispatcher-2 - pushing to url https://graphapi.facebook.com/post/status
+2017-10-16 21:11:18,249 [INFO] from application in application-akka.actor.default-dispatcher-2 - pushing to channelHandlerActor Future(Success(List(subscriptions(SUB_ID_00001,PostStatus,Facebook Status,140,https://graphapi.facebook.com/post/status,Post))))
+2017-10-16 21:11:18,251 [INFO] from application in application-akka.actor.default-dispatcher-2 - received msg channel_url_response(kafkaData(98323512132,CH001,Facebook,PostStatus,this is my new status,,9876543210,test@gmail.com,Inprogress,TestUrl,2017-10-16T21:11:18.228),https://graphapi.facebook.com/post/status,0,Future(<not completed>))
+2017-10-16 21:11:18,251 [INFO] from application in application-akka.actor.default-dispatcher-2 - updateAPiCall
+2017-10-16 21:11:18,664 [INFO] from com.zaxxer.hikari.HikariDataSource in application-akka.actor.default-dispatcher-2 - db - Started.
+2017-10-16 21:11:19,648 [DEBUG] from application in application-akka.actor.default-dispatcher-2 - create cc user info result UserTransactionInfo(98323512132,CH001,Facebook,PostStatus,this is my new status,,9876543210,test@gmail.com,2017-10-16T21:11:18.228,Success,2017-10-16T21:11:18.253,4)
