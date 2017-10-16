@@ -40,9 +40,9 @@ class UserChannelController @Inject()(
         val channelNames: List[String] = request_data.channels.map(_.channelName)
         val filteredChannels: List[MongoChannel] = Await.result(mongoDao.findChannelByChannelList(channelNames), Duration.Inf).filter {
           channelObj =>
-            val messageLengthLimit: Int = channelObj.subscriptions.find(x => x.susbscriptionType.equalsIgnoreCase("status")).map(t => t.limit).getOrElse(140)
+            val messageLengthLimit: Int = channelObj.subscriptions.find(x => x.susbscriptionType.equalsIgnoreCase("PostStatus")).map(t => t.limit).getOrElse(140)
             val limitCond = if (request_data.userDataMessage.length <= messageLengthLimit) true else false
-            val cond: Boolean = if (request_data.subscriptionType.equalsIgnoreCase("status")) limitCond else true
+            val cond: Boolean = if (request_data.subscriptionType.equalsIgnoreCase("PostStatus")) limitCond else true
             channelObj.subscriptions.map(_.susbscriptionType).contains(request_data.subscriptionType) && cond
         }
         val wantedChannel_data: List[channel_data] = request_data.channels.filter {
