@@ -96,14 +96,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/models.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+            <state relative-caret-position="538">
+              <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
               <folding>
                 <element signature="e#16#56#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -180,6 +190,7 @@
         <option value="$PROJECT_DIR$/app/controllers/UserChannelController.scala" />
         <option value="$PROJECT_DIR$/MongoSchema.txt" />
         <option value="$PROJECT_DIR$/Documentation/NamingConventions" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -829,12 +840,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507979493115</updated>
-      <workItem from="1507979500279" duration="82980000" />
+      <workItem from="1507979500279" duration="83223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82980000" />
+    <option name="totallyTimeSpent" value="83223000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1259,11 +1270,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/models.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+        <state relative-caret-position="538">
+          <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
           <folding>
             <element signature="e#16#56#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
